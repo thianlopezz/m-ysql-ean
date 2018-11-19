@@ -1,6 +1,8 @@
 const mysql = require('mysql');
 
+// TODO: Agregar .ENV
 function Connection() {
+
     this.pool = null;
 
     this.init = function () {
